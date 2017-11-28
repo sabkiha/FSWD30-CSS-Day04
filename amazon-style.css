@@ -1,0 +1,118 @@
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: lightgrey;
+	font-size: 12px;
+}
+
+/* very top part with logo and searchbox */
+
+.header {
+	background-color: #232F3E;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	height: 50px;
+}
+
+			#amazon-logo {
+				flex: 1;
+				order: 1;
+			}
+
+			#searchbox {
+				background-color: lightgrey;
+				color: gray;
+				flex: 4;
+				order: 2;
+			}
+
+			#searchbox label {
+				padding: 10px;
+			}
+
+			#searchbox input {
+				flex: 1;
+			}
+
+			#header-right-logo {
+				flex: 1;
+				order: 3;
+			}
+
+/* top navigation in three parts */
+
+.nav01 {
+	display: flex;
+	background-color: #232F3E;
+	padding: 0 10px 0 10px;
+	margin: 0;
+	color: lightgrey;
+	height: 50px;
+}
+
+		#nav01-left {
+			flex: 1;
+			text-align: left;
+		}
+
+		#nav01-middle ul {
+			list-style-type: none;
+			flex: 3;
+			overflow: hidden;
+		}
+
+		#nav01-middle ul li{
+			float: left;
+			flex: 1;
+			padding: 0 10px 0 10px ;
+		}
+
+		#nav01-right {
+			flex: 2;
+			text-align: right;
+		}
+
+/* big advertisement banner */
+
+/* row of 5 cards with recommendations per category */
+		
+.card-container {
+	max-width: 100 %;
+	margin:  10px, auto, 0, auto;
+}
+
+		.card {
+			background-color: white;
+			color: #5A777D;
+			padding:  10px;
+			box-sizing: border-box;
+			margin-bottom:  20px;
+		 	flex-basis: 20%;
+		 	margin-right: 10px;
+		 	margin-top: 10px;
+		 }
+
+		@media (min-width: 900px) {
+			.card-container {
+				display: flex;
+				justify-content: flex-start;
+			}
+		}
+
+hr {
+	height:0px;
+	border-width:2px;
+}
+
+/* large lower part of page with recommendations in rows */
+
+/* column of ads on right side */
+
+/* strip with Back to top at bottom of page */
+
+/* sections at bottom with columns of customer information / services */
+
+/* navigation to different amazon pages around the world */
+
+/* very bottom of the page, columns of Amazon links */

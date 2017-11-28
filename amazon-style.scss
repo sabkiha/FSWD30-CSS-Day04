@@ -1,0 +1,34 @@
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: lightgrey;
+}
+
+.header {
+	background-color: black;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+}
+
+.form-row{
+	flex-
+}
+
+#amazon-logo {
+	flex: 1;
+	order: 1;
+}
+
+
+#searchbox {
+	background-color: lightgrey;
+	color: gray;
+	flex: 4;
+	order: 2;
+}
+
+#header-right-logo {
+	flex: 1;
+	order: 3;
+}
+

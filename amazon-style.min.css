@@ -1,0 +1,1 @@
+body{font-family:Helvetica,sans-serif;background-color:#d3d3d3}.header{background-color:#000;padding:10px;margin:0;display:flex}#amazon-logo{flex:1;order:1}#searchbox{background-color:#d3d3d3;color:gray;flex:4;order:2}#header-right-logo{flex:1;order:3}
