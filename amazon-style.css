@@ -73,7 +73,7 @@ body {
 			text-align: right;
 		}
 
-/* big advertisement banner */
+/* big advertisement banner, no css so far */
 
 /* row of 5 cards with recommendations per category */
 		
@@ -107,9 +107,39 @@ hr {
 
 /* large lower part of page with recommendations in rows */
 
+.recommendations {
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.recommendation-bar {
+	background-color: white;
+ 	display: flex;
+  	max-width: 1200px;
+    overflow-x: scroll;
+}
+
+
+
+
 /* column of ads on right side */
 
 /* strip with Back to top at bottom of page */
+
+.nav02 {
+	display: flex;
+	background-color: #232F3E;
+	height: 40px;
+
+
+}
+
+.nav02 a {
+	text-decoration: none;
+	color: lightgrey;
+	margin: auto;
+}
 
 /* sections at bottom with columns of customer information / services */
 
